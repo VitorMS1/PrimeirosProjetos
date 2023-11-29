@@ -1,0 +1,119 @@
+/* Gertal */
+
+header {
+    background-color: white;
+    height: 53px;
+    align-items: center;
+    border-bottom-color:#ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+/* Icons */
+
+.linkedinicon{
+    width: 34.5px;
+    height: 34.5px;
+}
+
+.searchicon{
+    fill: #5f6163;
+    width: 16px;
+    height: 16px;
+    margin-left: -24px;
+}
+
+.dropicon{
+    width: 16px;
+    height: 16px;
+    fill: #666666;
+}
+
+.estilonaviscons{
+    height: 24px;
+    width: 24px;
+    fill: #666666;
+}
+
+/* Parte01 */
+
+.parteum{
+    align-items: center;
+    width: 400px;
+    margin-top: -16px;
+    margin-left: 2px;
+}
+
+.searchbox {
+    background: #eef3f8;
+    align-items: center;
+    width: 280px;
+    height: 34px;
+    padding-right: 8px;
+    padding-left: 40px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.inputStyle {
+
+    width: 140%;
+    height: 34px;
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    background: #eef3f8;
+    border: none;
+    outline: none;
+}
+
+
+/* NavBar */
+
+
+.navbarstyle {
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    margin-right: -13px;
+    margin-top: 2px;
+}
+
+.navbarstyle a {
+    text-decoration: none;
+    color: #727077;
+    font-size: 12px;
+}
+
+.navbarstyle a:hover svg,
+.navbarstyle a:hover {
+    fill: black;
+    color: black;
+}
+
+.navbarlinkslist{
+    width: 80px; 
+    height: 52px;
+}
+
+.navbardrop{
+    width: 80px;    
+    height: 52px;
+    line-height: 16px;
+    align-items: center;
+    background: transparent;
+    border: none;
+}
+
+.navbarbutton{
+    width: 80px;
+    height: 52px;
+    line-height: 16px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: #979c9c;
+}

@@ -1,0 +1,205 @@
+/* Geral */
+.perfil{
+    margin-left: -8px;
+}
+
+/* Icons */
+
+.unialfaicon{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.unialfaicon2{
+    width: 56px;
+    height: 56px;
+}
+/* Box 1 */
+
+.backgroundperfil{
+    width: 786px;
+    height: 196px;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;    
+    border-style: solid;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: #e0d7d7;
+}
+.box1{
+    border-style: solid;
+    border-top: none;
+    border-width: 1px;
+    border-color: #e5e4e2;
+    width: 785px;
+    height: 137px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fotoPerfil {
+    margin: -112px 0 0 25px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: none;
+}
+
+.textos01{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    margin-left: -42px;
+    line-height: 22px;
+}
+
+.texto1-01{
+    font-size: 16px;
+    margin-top: -8px;
+}
+
+.texto1-02{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a3a3a3;
+    line-height: 22px;
+}
+
+.texto1-03{
+    font-weight: 600;
+    font-size: 14px;
+    color: #0a66c2;
+    text-decoration:none;
+    line-height: 22px;
+}
+
+.texto1-04{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000e6;
+    text-decoration: none;
+    margin-left: -40px;
+    line-height: 20px;
+}
+
+
+/* Box 2 */
+
+.box2{
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e4e2;
+    width: 785px;
+    height: 243.2px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card1{
+    width: 785px;
+    margin-top: 16px;
+    margin-left: 25px;
+}
+
+ .textocard{
+     margin-top: 23px;
+     font-size: 14px;
+ }
+
+ .titulocard{
+     font-weight: 400;
+     height: 20px;
+     margin-top: 24px;
+
+ }
+
+ /* Box 3 */
+
+ .box3{
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e4e2;
+    width: 785px;
+    height: 329px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.texto1-05{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.texto1-06{
+    font-size: 14px;
+}
+
+.card2{
+    width: 785px;
+    height: 140px;
+    margin-left: 24px;
+
+}
+.card3{
+    height: 70px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.card4{
+    margin-left: 20px;
+    line-height: 20px;
+    color: black;
+}
+
+/* Box 4 */
+
+.box4{
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e4e2;
+    width: 785px;
+    height: 394.4px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.listcompetencia{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.itemcompetencia{
+    padding-top: 16px;
+    padding-bottom: 12px;
+    margin-left: -30px;
+    width: 734px;
+
+}
+
+.card5{
+    width: 785px;
+    height: 190px;
+    margin-left: 24px;
+}
+
+/* box void */
+
+.boxvoid{
+    width: 785px;
+    height: 150px;
+}
+
+.texto1-07{
+    color: #a7a7a7;
+}
+
+.texto1-08{
+    margin-right: 210px;
+}

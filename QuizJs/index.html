@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz</title>
+        
+        <link rel="stylesheet" href="css/geral.css">
+      
+    </head>
+    
+    <body>
+        
+        <div class="container">
+
+            <h1 id="titulo">-- Quiz</h1>
+        
+            <div class="conteudo">
+                
+                <div class="progressDiv">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" 
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div><br><br>
+                
+                <div id="boasVindas">
+                    <h3>Bem-vindo(a) ao quiz.</h3>   
+                    <h3>Pressione o botão para começar</h3><br>
+                    <button type="button" onclick="iniciar()" class="btn btn-warning btn-lg">começar</button>
+                </div>
+                
+                <div id="questoes">
+                    
+                    <div id="questao01">
+                        <h2>Questão 1</h2><br>
+                        <h3> Qual a capial do Brasil?</h3><br>
+                        <input id="questao01-respA" type="radio" name="questao01" value=0> Goiânia<br>
+                        <input id="questao01-respB" type="radio" name="questao01" value=20> Brasília<br>
+                        <input id="questao01-respC" type="radio" name="questao01" value=0> Varginha<br><br><br>
+                        <p id="aviso1">Por favor marque uma das alternativa</p>
+                        <button type="button" onclick="enviar01()" class="btn btn-warning btn-lg">Confimar Resposta</button> 
+                    </div>
+                    
+                    <div id="questao02">
+                        <h2>Questão 2</h2><br>
+                        <h3> Complete: Perdi meu celular, __ vou comprar outro.</h3><br>
+                        <input id="questao02_respA" type="radio" name="questao02" value=20> Mas<br>
+                        <input id="questao02-respB" type="radio" name="questao02" value=0> Mais<br>
+                        <input id="questao02-respC" type="radio" name="questao02" value=0> RICO!<br><br><br>
+                        <p id="aviso2">Por favor marque uma das alternativa</p>
+                        <button type="button" onclick="enviar02()" class="btn btn-warning btn-lg">Confimar Resposta</button>
+                    </div>
+                    
+                    <div id="questao03">
+                        <h2>Questão 3</h2><br>
+                        <h3> Estrutura em que o sistema testa se uma condição é verdadeira:</h3><br>
+                        <input id="questao03-respA" type="radio" name="questao03" value=20> if/else<br>
+                        <input id="questao03-respB" type="radio" name="questao03" value=0> Input<br>
+                        <input id="questao03-respC" type="radio" name="questao03" value=0> Sergio<br><br><br>
+                        <p id="aviso3">Por favor marque uma das alternativa</p>
+                        <button type="button" onclick="enviar03()" class="btn btn-warning btn-lg">Confimar Resposta</button>
+                    </div>
+                    
+                    <div id="questao04">
+                        <h2>Questão 4</h2><br>
+                        <h3> O Murilo é humilde e vai me dar nota boa?</h3><br>
+                        <input id="questao04-respA" type="radio" name="questao04" value=0> CLARO!<br>
+                        <input id="questao04-respB" type="radio" name="questao04" value=0> Lógico<br>
+                        <input id="questao04-respC" type="radio" name="questao04" value=20> Tomara<br><br><br>
+                        <p id="aviso4">Por favor marque uma das alternativa</p>
+                        <button type="button" onclick="enviar04()" class="btn btn-warning btn-lg">Confimar Resposta</button>
+                    </div>
+                    
+                    <div id="questao05">
+                        <h2>Questão 5</h2><br>
+                        <h3> Você acha que o Bahia vai ser rebaixado esse ano?</h3><br>
+                        <input id="questao05-respA" type="radio" name="questao05" value=0> Sim<br>
+                        <input id="questao05-respB" type="radio" name="questao05" value=20> Óbvio<br>
+                        <input id="questao05-respC" type="radio" name="questao05" value=0> Certamente<br><br><br>
+                        <p id="aviso5">Por favor marque uma das alternativa</p>
+                        <button type="button" onclick="enviar05()" class="btn btn-warning btn-lg">Confimar Resposta</button>
+                    </div>
+                    
+                    <div id="resultado">
+                        <h2>Parabéns, você concluiu o quiz! Obrigado por jogar.</h2><br><br>
+                        <h3 id="aa">A sua pontuação foi: </h3>
+                        <h1 id=mostrarResultado></h1>
+                        <p id=infoResultado></p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="sctrip.js"></script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(243, 242, 239);
+}
+
+a, a:hover{
+    color:#0a66c2;
+    text-decoration: underline;
+}
